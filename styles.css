@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(233, 220, 201, 0.8);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+video {
+    background-color: rgba(233, 220, 201, 0.8);
+}
+
+.info {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;    
+    height: 30px;
+    width: 780px;
+    background-color: #f00;
+    color: #fff;
+    font-size: 20px;
+    display: none;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #191970;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #191970;
+}
+
+input[type="file"] {
+    display: none;
+}
